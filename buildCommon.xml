@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="common" basedir=".">
+    <import file="../org.eclipse.imp.update/buildCommon.xml"/>
+
+    <!-- Following assumes we're invoking the build from within some plugin project's top-level directory -->
+    <xmlproperty file="../org.eclipse.imp.formatting.feature/feature.xml" prefix="imp.formatting"/>
+
+    <echo message="Building for IMP Formatting feature version ${imp.formatting.feature(version)}"/>
+
+    <property name="imp.formatting.version" value="${imp.formatting.feature(version)}"/>
+</project>
