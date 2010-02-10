@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<psf version="2.0">
+    <provider id="org.tigris.subversion.subclipse.core.svnnature">
+        <project reference="0.9.3,https://dev.eclipse.org/svnroot/technology/org.eclipse.imp/trunk/org.eclipse.imp.box,org.eclipse.imp.box"/>
+        <project reference="0.9.3,https://dev.eclipse.org/svnroot/technology/org.eclipse.imp/trunk/org.eclipse.imp.formatting,org.eclipse.imp.formatting"/>
+    </provider>
+</psf>
