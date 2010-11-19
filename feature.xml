@@ -18,7 +18,6 @@
    </url>
 
    <requires>
-      <import feature="sdf_eclipse_installer_feature" version="1.0.10" match="greaterOrEqual"/>
       <import feature="lpg.runtime" version="2.0.17" match="greaterOrEqual"/>
       <import feature="org.eclipse.imp.runtime" version="0.1.104" match="greaterOrEqual"/>
    </requires>
